@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Transavia Leessite</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Header balk met logo, nav en iconen -->
+  <header>
+    <nav>
+      <img src="images/transavia-logo-t-green-full.svg" alt="Transavia Homepagina" />
+      <img src="images/transavia-logo-t-green.svg" alt="Transavia Homepagina" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Verhalen</a></li>
+      </ul>
+      <p>
+        <a href="inloggen.html"><span></span></a>
+        <a href="#"><span></span></a>
+      </p>
+    </nav>
+  </header>
+  <!-- Top verhalen overzicht -->
+  <section class="topstory">
+    <h1>Onze topverhalen</h1>
+    <div>
+      <article>
+        <img src="images/zombiepreview.png" alt="#">
+        <h2>89. Zombie</h2>
+        <footer>
+          <p><i class="far fa-eye"></i> 45 <i class="fas fa-comments"></i> 30 <i class="fas fa-clock"></i> 15 minuten</p>
+        </footer>
+      </article>
+      <article>
+        <img src="images/twitterpreview.png" alt="#">
+        <h2>08. Twitter</h2>
+        <footer>
+          <p><i class="far fa-eye"></i> 29 <i class="fas fa-comments"></i> 12 <i class="fas fa-clock"></i> 10 minuten</p>
+        </footer>
+      </article>
+      <article>
+        <img src="images/Verhaal.png" alt="#">
+        <h2>47. Haiku</h2>
+        <footer>
+          <p><i class="far fa-eye"></i> 24 <i class="fas fa-comments"></i> 10 <i class="fas fa-clock"></i> 10 minuten</p>
+        </footer>
+      </article>
+    </div>
+  </section>
+  <!-- Algemeen verhalen overzicht -->
+  <section class="main">
+    <div>
+    <h1>Kies een verhaal</h1>
+    <button><i class="fas fa-filter"></i> <span>Filteren</span></button>
+    </div>
+    <form>
+      <h2>Filteren</h2>
+      <!-- Bronnen voor toegangkelijk form filters https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form -->
+      <fieldset>
+        <legend>Sorteren</legend>
+        <p>
+          <input type="radio" name="size" id="size_1" value="small">
+          <label for="size_1">Aantal keer gelezen</label>
+        </p>
+        <p>
+          <input type="radio" name="size" id="size_2" value="medium">
+          <label for="size_2">Reacties</label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Leestijd</legend>
+        <p>
+          <input type="checkbox" name="leestijd" id="leestijd_1" value="small">
+          <label for="leestijd_1">5 minuten</label>
+        </p>
+        <p>
+          <input type="checkbox" name="leestijd" id="leestijd_2" value="medium">
+          <label for="leestijd_2">10 minuten</label>
+        </p>
+        <p>
+            <input type="checkbox" name="leestijd" id="leestijd_3" value="big">
+            <label for="leestijd_3">15 minuten</label>
+        </p>
+      </fieldset>
+     <fieldset>
+        <legend>Sfeer</legend>
+        <p>
+          <input type="checkbox" name="sfeer" id="sfeer_1" value="small">
+          <label for="sfeer_1">Blij</label>
+        </p>
+        <p>
+          <input type="checkbox" name="sfeer" id="sfeer_2" value="medium">
+          <label for="sfeer_2">Boos</label>
+        </p>
+        <p>
+            <input type="checkbox" name="sfeer" id="sfeer_3" value="big">
+            <label for="sfeer_3">Verdrietig</label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Vormgeving</legend>
+        <p>
+          <input type="checkbox" name="vormgeving" id="vormgeving_1" value="small">
+          <label for="vormgeving_1">Veel beeld</label>
+        </p>
+        <p>
+          <input type="checkbox" name="vormgeving" id="vormgeving_2" value="medium">
+          <label for="vormgeving_2">Weinig beeld</label>
+        </p>
+      </fieldset>
+      <button>Pas de filters toe</button>
+    </form>
+    <div>
+      <article>
+        <img src="images/access-close-up-code-1089438.png" alt="#">
+        <h2>87. Code</h2>
+        <footer>
+          <p><i class="far fa-eye"></i> 45 <i class="fas fa-comments"></i> 30 <i class="fas fa-clock"></i> 15 minuten</p>
+        </footer>
+      </article>
+      <article>
+        <img src="images/VerhaalSmoke.png" alt="#">
+        <h2>73. Stoned</h2>
+        <footer>
+          <p><i class="far fa-eye"></i> 10 <i class="fas fa-comments"></i> 6 <i class="fas fa-clock"></i> 20 minuten</p>
+        </footer>
+      </article>
+      <article>
+        <img src="images/terugspoelen.png" alt="#">
+        <h2>61. Terugspoelen</h2>
+        <footer>
+          <p><i class="far fa-eye"></i> 54 <i class="fas fa-comments"></i> 28 <i class="fas fa-clock"></i> 5 minuten</p>
+        </footer>
+      </article>
+    </div>
+    <div>
+      <article>
+        <img src="images/ongeboren.png" alt="#">
+        <h2>40. Ongeboren</h2>
+        <footer>
+          <p><i class="far fa-eye"></i> 18 <i class="fas fa-comments"></i> 11 <i class="fas fa-clock"></i> 25 minuten</p>
+        </footer>
+      </article>
+      <article>
+        <img src="images/jezus.png" alt="#">
+        <h2>33. Jezus</h2>
+        <footer>
+          <p><i class="far fa-eye"></i> 78 <i class="fas fa-comments"></i> 9 <i class="fas fa-clock"></i> 5 minuten</p>
+        </footer>
+      </article>
+      <article>
+        <img src="images/moe.png" alt="#">
+        <h2>38. Moe</h2>
+        <footer>
+          <p><i class="far fa-eye"></i> 33 <i class="fas fa-comments"></i> 3 <i class="fas fa-clock"></i> 10 minuten</p>
+        </footer>
+      </article>
+    </div>
+    <button>Alle verhalen bekijken</button>
+  </section>
+  <footer>
+    <p>&copy; Copyright 2019 Transavia</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
