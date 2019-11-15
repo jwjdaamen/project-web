@@ -172,8 +172,6 @@ section.login form {
 
 section.login fieldset {
   width: 100%;
-  padding: 0;
-  margin-left: 0em;
 }
 
 input#email, input#wachtwoord {
@@ -267,7 +265,7 @@ form h2 {
   color: white;
   margin-top: 0;
   padding: .4em;
-  padding-left: 1.3em;
+  padding-left: .9em;
   text-align: left;
   flex-basis: 100%;
   border-top-right-radius: 13px;
@@ -295,16 +293,21 @@ form fieldset {
   margin-left: 1em;
 }
 
+section.login form fieldset {
+  margin-left: 0em;
+  padding: 0;
+}
+
 fieldset legend {
   font-family: 'NexaXbold';
   color: #00D66C;
   font-size: 1.2em;
 }
 
-.filtershow {
-  visibility: visible;
-  opacity: 1;
-  margin-bottom: 1em;
+section.main .filtershow {
+  visibility: visible !important;
+  opacity: 1 !important;
+  margin-bottom: 1em !important;
 }
 
 section > button {
