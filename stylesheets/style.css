@@ -7,42 +7,24 @@
 
 @font-face {
   font-family: 'NexaXbold';
-  src: url('../fonts/Nexa_Xbold-webfont.ttf') format('truetype');
+  src: url('../fonts/Nexa_Xbold-webfont.ttf') format('truetype'),
+  url('../fonts/Nexa_XBold-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Nexa_Regular';
-  src: url('../fonts/Nexa_Regular-webfont.ttf') format('truetype');
+  src: url('../fonts/Nexa_Regular-webfont.ttf') format('truetype'),
+  url('../fonts/Nexa_Regular-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Transavicon';
-  src: url('../fonts/transavicon.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'NexaXbold';
-  src: url('../fonts/Nexa_XBold-webfont.woff2') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Nexa_Regular';
-  src: url('../fonts/Nexa_Regular-webfont.woff2') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Transavicon';
-  src: url('../fonts/transavicon.woff2') format('woff');
+  src: url('../fonts/transavicon.ttf') format('truetype'),
+  url('../fonts/transavicon.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -439,7 +421,7 @@ article footer:last-child {
     transition: all 0.3s;
     display: flex;
     background-color: white;
-    margin-bottom: -770px;
+    margin-bottom: -780px;
     border-radius: 13px;
     flex-wrap: wrap;
     justify-content: space-between;
