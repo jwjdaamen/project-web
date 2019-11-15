@@ -26,6 +26,27 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'NexaXbold';
+  src: url('../fonts/Nexa_XBold-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexa_Regular';
+  src: url('../fonts/Nexa_Regular-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Transavicon';
+  src: url('../fonts/transavicon.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, 
 body {
     height: 100%;
@@ -143,9 +164,10 @@ section.topstory > div {
 
 section.topstory::after {
   content: url(../images/driehoek.svg);
-  position: absolute;
-  top: 64%;
-  left: calc(50vw - 47px);
+  margin-bottom: -5.6em;
+  height: 140px;
+  display: block;
+  text-align: center;
 }
 
 section.login {
@@ -410,12 +432,6 @@ article footer:last-child {
   }
   nav img:first-child {
     display: none;
-  }
-  section.topstory::after {
-    content: url(../images/driehoek.svg);
-    position: absolute;
-    top: 108vh;
-    left: calc(50vw - 47px);
   }
   section.main form {
     visibility: hidden;
