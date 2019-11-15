@@ -245,6 +245,7 @@ div > button {
   padding: 0.7em 1.8em;
   border-radius: 20px;
   box-shadow: 0 3px 0 rgba(204, 204, 204, 1);
+  background-color: white;
 }
 
 section.main form {
@@ -405,6 +406,7 @@ article footer:last-child {
   div > button {
     padding: 0.7em 0.9em;
     border-radius: 30px;
+    background-color: white;
   }
   nav img:first-child {
     display: none;
@@ -415,13 +417,13 @@ article footer:last-child {
     top: 108vh;
     left: calc(50vw - 47px);
   }
-  form {
+  section.main form {
     visibility: hidden;
     opacity: 0;
     transition: all 0.3s;
     display: flex;
     background-color: white;
-    margin-bottom: -750px;
+    margin-bottom: -770px;
     border-radius: 13px;
     flex-wrap: wrap;
     justify-content: space-between;
